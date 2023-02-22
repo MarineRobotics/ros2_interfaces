@@ -1,0 +1,110 @@
+# ADCReading
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "ADCReading"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "ADCReading"
+# Declincation
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "Declination"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "Declination"
+# Depth
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "Depth"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "Depth"
+  fields_1_to_2:
+    N2K_time: 'n2k_time'
+# GNSS data
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "GNSSData"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "GNSSData"
+  fields_1_to_2:
+    N2K_time: 'n2k_time'
+# Humidity rename + remap
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "HUMIDITY"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "Humidity"
+  fields_1_to_2:
+    N2K_time: 'n2k_time'
+# N2KInfo
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "N2KInfo"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "N2KInfo"
+# NodeStatus
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "NodeStatus"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "NodeStatus"
+# PID
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "PID"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "PID"
+# Position
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "Position"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "Position"
+# Pressure rename
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "PRESSURE"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "Pressure"
+  fields_1_to_2:
+    N2K_time: 'n2k_time'
+# RoboclawStatus
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "RoboclawStatus"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "RoboclawStatus"
+# ROT
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "ROT"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "ROT"
+  fields_1_to_2:
+    N2K_time: 'n2k_time'
+# Speed
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "Speed"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "Speed"
+# Temp rename
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "TEMP"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "Temp"
+  fields_1_to_2:
+    N2K_time: 'n2k_time'
+# Wind rename
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "WIND"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "Wind"
+  fields_1_to_2:
+    N2K_time: 'n2k_time'
+# Heading
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "Heading"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "Heading"

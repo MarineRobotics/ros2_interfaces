@@ -1,0 +1,10 @@
+builtin_interfaces/Time n2k_time
+int16 src
+Position position
+string date
+string gps_time
+string gnss_type
+int32 num_sats
+float32 hdop
+float32 pdop
+float32 geoidal_sep
