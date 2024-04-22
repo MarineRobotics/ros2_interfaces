@@ -29,6 +29,7 @@ set(msg_files
   "msg/GNSSData.msg"
   "msg/Heading.msg"
   "msg/Humidity.msg"
+  "msg/LCD.msg"
   "msg/N2KInfo.msg"
   "msg/NodeStatus.msg"
   "msg/PID.msg"
@@ -38,7 +39,8 @@ set(msg_files
   "msg/ROT.msg"
   "msg/Speed.msg"
   "msg/Temp.msg"
-  "msg/Wind.msg")
+  "msg/Wind.msg"
+)
 
 set (action_files
   "action/GPIO.action"
