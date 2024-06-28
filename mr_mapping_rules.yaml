@@ -108,3 +108,9 @@
   ros1_message_name: "Heading"
   ros2_package_name: "mr_interfaces"
   ros2_message_name: "Heading"
+# StateRequest service
+-
+  ros1_package_name: "mr_messages"
+  ros1_message_name: "StateRequest"
+  ros2_package_name: "mr_interfaces"
+  ros2_message_name: "StateRequest"
