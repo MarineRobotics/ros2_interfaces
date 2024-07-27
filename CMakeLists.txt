@@ -44,6 +44,7 @@ set(msg_files
 
 set (action_files
   "action/GPIO.action"
+  "action/Sleep.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
