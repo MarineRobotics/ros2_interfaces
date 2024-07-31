@@ -31,6 +31,8 @@ set(msg_files
   "msg/Humidity.msg"
   "msg/LCD.msg"
   "msg/N2KInfo.msg"
+  "msg/NetworkInfo.msg"
+  "msg/NetworkInterface.msg"
   "msg/NodeStatus.msg"
   "msg/PID.msg"
   "msg/Position.msg"
