@@ -77,9 +77,10 @@
   ros1_package_name: "mr_messages"
   ros1_message_name: "ROT"
   ros2_package_name: "mr_interfaces"
-  ros2_message_name: "ROT"
+  ros2_message_name: "rot"
   fields_1_to_2:
     N2K_time: 'n2k_time'
+    ROT: 'rot'
 # Speed
 -
   ros1_package_name: "mr_messages"
