@@ -34,6 +34,8 @@
   ros2_message_name: "Humidity"
   fields_1_to_2:
     N2K_time: 'n2k_time'
+    src: 'src'
+    humid: 'humid'
 # N2KInfo
 -
   ros1_package_name: "mr_messages"
@@ -66,6 +68,9 @@
   ros2_message_name: "Pressure"
   fields_1_to_2:
     N2K_time: 'n2k_time'
+    pressure: 'pressure'
+    pressure_source: 'pressure_source'
+    src: 'src'
 # RoboclawStatus
 -
   ros1_package_name: "mr_messages"
@@ -81,6 +86,7 @@
   fields_1_to_2:
     N2K_time: 'n2k_time'
     ROT: 'rot'
+    src: 'src'
 # Speed
 -
   ros1_package_name: "mr_messages"
@@ -95,6 +101,8 @@
   ros2_message_name: "Temp"
   fields_1_to_2:
     N2K_time: 'n2k_time'
+    src: 'src'
+    temp: 'temp'
 # Wind rename
 -
   ros1_package_name: "mr_messages"
@@ -103,6 +111,11 @@
   ros2_message_name: "Wind"
   fields_1_to_2:
     N2K_time: 'n2k_time'
+    src: 'src'
+    speed: 'speed'
+    unit: 'unit'
+    direction: 'direction'
+    reference: 'reference'
 # Heading
 -
   ros1_package_name: "mr_messages"
