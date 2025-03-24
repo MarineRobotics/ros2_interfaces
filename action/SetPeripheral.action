@@ -1,0 +1,12 @@
+# Goal
+string name
+bool state
+---
+# Result
+bool success
+bool final_state
+string message
+---
+# Feedback
+int32 attempt
+bool current_state
