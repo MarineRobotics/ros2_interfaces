@@ -18,6 +18,8 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(srv_files
+  "srv/ReadGPIO.srv"
+  "srv/SetGPIO.srv"
   "srv/StateRequest.srv"
 )
 
@@ -46,7 +48,9 @@ set(msg_files
 
 set (action_files
   "action/GPIO.action"
+  "action/SetPeripheral.action"
   "action/Sleep.action"
+  "action/TogglePeripheral.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
