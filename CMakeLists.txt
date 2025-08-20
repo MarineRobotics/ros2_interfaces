@@ -51,6 +51,7 @@ set (action_files
   "action/SetPeripheral.action"
   "action/Sleep.action"
   "action/TogglePeripheral.action"
+  "action/KeelHoming.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

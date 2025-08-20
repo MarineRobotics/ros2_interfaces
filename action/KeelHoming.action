@@ -1,0 +1,19 @@
+# Goal - What the client requests
+# Optional parameters for homing operation
+float32 timeout_seconds      # Maximum time to wait for homing (0 = use default)
+bool test_movement          # Whether to test movement after homing
+int32 target_test_position  # Position to move to for testing (-1 = use default)
+---
+# Result - What the server returns when done
+bool success                # Whether homing completed successfully
+string final_state          # Final state of the operation
+int32 final_position        # Final encoder position after homing
+float32 total_time_seconds  # Total time taken for homing
+string error_message        # Error message if failed (empty if successful)
+---
+# Feedback - Periodic updates during execution
+string current_state        # Current state of homing operation
+int32 current_position      # Current encoder position (-1 if unknown)
+float32 progress_percent    # Progress from 0.0 to 1.0
+string status_message       # Detailed status message
+float32 elapsed_time_seconds # Time elapsed since start
