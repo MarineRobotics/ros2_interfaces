@@ -52,6 +52,7 @@ set (action_files
   "action/Sleep.action"
   "action/TogglePeripheral.action"
   "action/KeelHoming.action"
+  "action/MotorPosition.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

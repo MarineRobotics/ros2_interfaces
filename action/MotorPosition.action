@@ -1,0 +1,16 @@
+# Goal - What the client requests
+float64 target_position         # Target position in degrees
+float64 timeout_seconds         # Maximum time to wait for positioning (0 = use default)
+float64 position_tolerance      # Position tolerance in degrees (0 = use default)
+---
+# Result - What the server returns when done
+bool success                    # Whether positioning completed successfully
+float64 final_position          # Final position achieved in degrees
+float64 total_time_seconds      # Total time taken for positioning
+string error_message            # Error message if failed (empty if successful)
+---
+# Feedback - Periodic updates during execution
+float64 current_position        # Current position in degrees
+float64 progress                # Progress from 0.0 to 1.0
+float64 position_error          # Current position error in encoder counts
+float64 elapsed_time_seconds    # Time elapsed since start
