@@ -25,6 +25,7 @@ set(srv_files
 
 set(msg_files
   "msg/ADCReading.msg"
+  "msg/ControllerTuning.msg"
   "msg/Declination.msg"
   "msg/Depth.msg"
   "msg/DigitalReading.msg"
@@ -41,6 +42,7 @@ set(msg_files
   "msg/Pressure.msg"
   "msg/RoboclawStatus.msg"
   "msg/ROT.msg"
+  "msg/SailControllerSettings.msg"
   "msg/Speed.msg"
   "msg/Temp.msg"
   "msg/Wind.msg"

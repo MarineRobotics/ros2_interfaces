@@ -1,0 +1,6 @@
+builtin_interfaces/Time time
+float64 output_min_deg
+float64 output_max_deg
+float64 heading_rate_freeze_threshold_dps
+bool true_wind_ff_enabled
+float64 input_timeout_sec
