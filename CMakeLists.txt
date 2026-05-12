@@ -14,6 +14,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 
 find_package(builtin_interfaces REQUIRED)
+find_package(std_msgs REQUIRED)
 
 find_package(rosidl_default_generators REQUIRED)
 
@@ -24,6 +25,10 @@ set(srv_files
 )
 
 set(msg_files
+  "msg/Azimuth.msg"
+  "msg/AzimuthStamped.msg"
+  "msg/GNSSMeta.msg"
+  "msg/PolarVector.msg"
   "msg/ADCReading.msg"
   "msg/ControllerTuning.msg"
   "msg/Declination.msg"
@@ -61,7 +66,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
   ${action_files}
-  DEPENDENCIES builtin_interfaces
+  DEPENDENCIES builtin_interfaces std_msgs
 )
 
 install(
